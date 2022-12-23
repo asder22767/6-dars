@@ -1,0 +1,43 @@
+.timecalc {
+    height: 100vh;
+    background-color: #28A745;
+
+    &__heading {
+        font-size: 40px;
+    }
+
+    &__wrapper-top {
+        margin-bottom: 50px;
+    }
+
+    &__label {
+        margin-right: 10px;
+        font-size: 25px;
+    }
+
+    &__input {
+        width: 500px;
+        font-size: 16px;
+    }
+
+    &__button-submit {
+        background-color: #007bff;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+    }
+
+    &__items {
+        font-size: 25px;
+    }
+
+    &__items-img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+}
